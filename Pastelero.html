@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en"></html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="Firefox">
+    <meta name="Viewport" content="width=devide-width, initial scale=1,0">
+    <title>Página del pastelero</title>
+</head>
+
+<body>
+<h1>Página del pastelero</h1>
+
+<img src="file:///Users/Zavala/LaunchX/cakes.png" alt="Logo Pastelería">
+
+<h2>Inventario de materias primas</h2>
+
+<h3>Sabores de pan</h3>
+
+<table>
+    <tr>
+        <th>Sabor de pan de pastel</th>
+        <th>Número de pedidos</th>
+        <th>Cantidad restante</th>
+
+    </tr>
+    <tr>
+        <td>Tradicional</td>
+        <Td><input type="number" id="pan1" name="pan1"></Td>
+        <td><input type="number" id="rest1" name="rest1"></td><br>
+
+    </tr>
+    <tr>
+        <td>Chocolate</td>
+        <Td><input type="number" id="pan2" name="pan2"></Td>
+        <td><input type="number" id="rest2" name="rest2"></td><br>
+    </tr>
+
+    <tr>
+        <td>3 leches</td>
+        <Td><input type="number" id="pan3" name="pan3"></Td>
+        <td><input type="number" id="rest3" name="rest3"></td><br>
+    </tr>
+
+    <tr>
+        <td>Elote</td>
+        <Td><input type="number" id="pan4" name="pan4"></Td>
+        <td><input type="number" id="rest4" name="rest4"></td><br>
+    </tr>
+
+    <tr>
+        <td>Mantequilla</td>
+        <Td><input type="number" id="pan6" name="pan6"></Td>
+        <td><input type="number" id="rest6" name="rest6"></td><br>
+    </tr>
+</table>
+
+<hr>
+<h3>Toppings</h3>
+<table>
+    <tr>
+        <th>Tipo de topping</th>
+        <th>Número de pedidos</th>
+        <th>Cantidad restante</th>
+
+    </tr>
+    <tr>
+        <td>Chispas de chocolate</td>
+        <Td><input type="number" id="top1" name="top1"></Td>
+        <td><input type="number" id="restan1" name="restan1"></td><br>
+
+    </tr>
+    <tr>
+        <td>Perlas comestibles</td>
+        <Td><input type="number" id="top2" name="top2"></Td>
+        <td><input type="number" id="restan2" name="restan2"></td><br>
+    </tr>
+
+    <tr>
+        <td>Figuras de fondant</td>
+        <Td><input type="number" id="top3" name="top3"></Td>
+        <td><input type="number" id="restan3" name="restan3"></td><br>
+    </tr>
+
+    <tr>
+        <td>Flores de chantillí</td>
+        <Td><input type="number" id="top4" name="top4"></Td>
+        <td><input type="number" id="restan4" name="restan4"></td><br>
+    </tr>
+
+    <tr>
+        <td>Trozos de chocolate</td>
+        <Td><input type="number" id="top5" name="top5"></Td>
+        <td><input type="number" id="restan5" name="restan5"></td><br>
+    </tr>
+
+    <tr>
+        <td>Trozos de galleta de mantequilla</td>
+        <Td><input type="number" id="top6" name="top6"></Td>
+        <td><input type="number" id="restan6" name="restan6"></td><br>
+    </tr>
+</table>
+<hr>
+
+<h3>Rellenos</h3>
+<table>
+    <tr>
+        <th>Sabor de relleno</th>
+        <th>Número de pedidos</th>
+        <th>Cantidad restante</th>
+
+    </tr>
+    <tr>
+        <td>Chocolate</td>
+        <Td><input type="number" id="rell1" name="rell1"></Td>
+        <td><input type="number" id="resta1" name="resta1"></td><br>
+
+    </tr>
+    <tr>
+        <td>Frutos rojos</td>
+        <Td><input type="number" id="rell2" name="rell2"></Td>
+        <td><input type="number" id="resta2" name="resta2"></td><br>
+    </tr>
+
+    <tr>
+        <td>Queso</td>
+        <Td><input type="number" id="rell3" name="rell3"></Td>
+        <td><input type="number" id="resta3" name="resta3"></td><br>
+    </tr>
+
+    <tr>
+        <td>Mermelada de fresa</td>
+        <Td><input type="number" id="rell4" name="rell4"></Td>
+        <td><input type="number" id="resta4" name="resta4"></td><br>
+    </tr>
+
+    <tr>
+        <td>Capuccino</td>
+        <Td><input type="number" id="rell5" name="rell5"></Td>
+        <td><input type="number" id="resta5" name="resta5"></td><br>
+    </tr>
+
+    <tr>
+        <td>Trufa de chocolate amargo</td>
+        <Td><input type="number" id="rell6" name="rell6"></Td>
+        <td><input type="number" id="resta6" name="resta6"></td><br>
+    </tr>
+</table>
+
+<hr>
+<h2>Pedidos</h2>
+<table>
+    <tr>
+        <th>Nombre del cliente</th>
+        <th>Teléfono</th>
+        <th>Correo electrónico</th>
+        <th>Dirección de destino</th>
+        <th>Fecha de entrega</th>
+        <th>Pastel elegido</th>
+        <th>Sabor de pan</th>
+        <th>Sabor de relleno</th>
+        <th>¿Lleva topping?</th>
+        <th>Topping</th>
+
+    </tr>
+    <tr>
+        <td><input type="text" id="nombre" name="nombre"></td>
+        <Td><input type="number" id="tel" name="tel"></Td>
+        <td><input type="email" id="correo" name="correo"></td>
+        <td><input type="text" id="dirrec" name="direc"></Td>
+        <td><input type="datetime" name="entrega" id="entrega"></td>
+        <td><input type="radio" id="Templario" name="cake1" value="Templario">
+            <label for="Templario">Caballero Templario</label><br>
+            <label for="color1">Color de tu fondant</label>
+            <input type="text" id="color1" name="color1"><br>
+            <input type="radio" id="cerezo" name="cake2" value="cerezo">
+            <label for="cerezo">Princesa de Flor de Cerezo</label><br>
+            <label for="color2">Color de tu fondant</label>
+            <input type="text" id="color2" name="color2"><br>
+            <input type="radio" id="corazones" name="cake3" value="corazones">
+            <label for="corazones">Reina de Corazones</label><br>
+            <input type="radio" id="real" name="cake4" value="real">
+            <label for="real">Corte real</label><br>
+            <label for="color3">Color de tu chantillí</label>
+            <input type="text" id="color3" name="color3"><br>
+            <input type="radio" id="bribones" name="cake5" value="bribones">
+            <label for="bribones">Carnaval de Bribones</label><br>
+            <input type="radio" id="joya" name="cake" value="joya">
+            <label for="joya">Joya de la corona</label><br>
+        </td>
+
+        <td><input type="radio" id="tradicional" name="pan" value="tradicional">
+            <label for="tradicional">Pan tradicional de pastel</label><br>  
+            <input type="radio" id="chocolate" name="pan" value="chocolate">
+            <label for="chocolate">Pan de chocolate</label><br>
+            <input type="radio" id="leches" name="pan" value="leches">
+            <label for="leches">Pan de 3 leches</label><br>
+            <input type="radio" id="elote" name="pan" value="elote">
+            <label for="elote">Pan de elote</label><br>
+            <input type="radio" id="mantequilla" name="pan" value="mantequilla">
+            <label for="mantequilla">Pan de mantequilla</label><br>
+        </td>
+
+        <td><input type="radio" id="chocolate2" name="relleno" value="chocolate2">
+            <label for="chocolate2">Chocolate</label><br>  
+            <input type="radio" id="frutos" name="relleno" value="frutos">
+            <label for="frutos">Frutos rojos</label><br>
+            <input type="radio" id="queso" name="relleno" value="queso">
+            <label for="queso">Queso</label><br>
+            <input type="radio" id="fresa" name="relleno" value="fresa">
+            <label for="fresa">Mermelada de fresa</label><br>
+            <input type="radio" id="capuccino" name="relleno" value="capuccino">
+            <label for="capuccino">Capuccino</label><br>
+            <input type="radio" id="trufa" name="relleno" value="trufa">
+            <label for="trufa">Trufa de chocolate amargo</label><br>
+        </td>
+
+        <td> <input type="radio" id="si" name="si" value="si">
+        <label for="si">Si</label><br>
+        <input type="radio" id="no" name="no" value="no">
+        <label for="no">No</label>
+        </td>
+
+        <td><input type="radio" id="chispas" name="topping" value="chispas">
+            <label for="chispas">Chispas de chocolate</label><br>  
+            <input type="radio" id="perlas" name="topping" value="perlas">
+            <label for="perlas">Perlas comestibles de sabores</label><br>
+            <input type="radio" id="figuras" name="topping" value="figuras">
+            <label for="figuras">Pequeñas figuras de fondant (máximo 5 cm de altura)</label><br>
+            <input type="radio" id="flores" name="topping" value="flores">
+            <label for="flores">Flores de chantillí</label><br>
+            <input type="radio" id="trozos" name="topping" value="trozos">
+            <label for="trozos">Trozos de chocolate</label><br>
+            <input type="radio" id="galleta" name="topping" value="galleta">
+            <label for="galleta">Trozos de galleta de mantequilla</label><br><br>
+        </td>
+
+    </tr>
+    
+</table>
+
+</body>
