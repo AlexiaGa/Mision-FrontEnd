@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en"></html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="Firefox ">
+    <meta name="Viewport" content="width=devide-width, initial scale=1,0">
+    <title> Pedido pastelería</title>
+
+</head>
+<body>
+<h2>Datos generales del cliente</h2>
+<label for="nombre">Nombre completo</label>
+<input type="text" id="nombre" name="nombre"><br>
+
+<label for="telefono">Número de teléfono (casa o celular)</label>
+<input type="tel" id="telefono" name="telefono" maxlength="10"><br>
+
+<label for="correo">Correo electrónico</label>
+<input type="email" id="correo" name="correo"><br>
+
+<label for="direccion">Dirección de destino del pedido</label>
+<input type="text" name="direccion" id="direccion"><br>
+
+<label for="fecha">Fecha de entrega:</label>
+<input type="datetime" id="fecha" name="fecha">
+
+<hr>
+
+<h3>¿Qué tipo de pastel vas a elegir?</h3>
+    <input type="radio" id="Templario" name="cake1" value="Templario">
+    <label for="Templario">Caballero Templario</label><br>
+    <label for="color1">Color de tu fondant</label>
+    <input type="text" id="color1" name="color1"><br>
+    <input type="radio" id="cerezo" name="cake2" value="cerezo">
+    <label for="cerezo">Princesa de Flor de Cerezo</label><br>
+    <label for="color2">Color de tu fondant</label>
+    <input type="text" id="color2" name="color2"><br>
+    <input type="radio" id="corazones" name="cake3" value="corazones">
+    <label for="corazones">Reina de Corazones</label><br>
+    <input type="radio" id="real" name="cake4" value="real">
+    <label for="real">Corte real</label><br>
+    <label for="color3">Color de tu chantillí</label>
+    <input type="text" id="color3" name="color3"><br>
+    <input type="radio" id="bribones" name="cake5" value="bribones">
+    <label for="bribones">Carnaval de Bribones</label><br>
+    <input type="radio" id="joya" name="cake" value="joya">
+    <label for="joya">Joya de la corona</label><br>
+
+
+<h3>¿Para cuántas personas lo quieres?</h3>
+<label for="personas">Número de Personas</label><br>
+<input type="number" id="personas" name="personas">
+
+<h3>¿Qué sabor de pan lo deseas?</h3>
+<input type="radio" id="tradicional" name="pan" value="tradicional">
+<label for="tradicional">Pan tradicional de pastel</label><br>  
+<input type="radio" id="chocolate" name="pan" value="chocolate">
+<label for="chocolate">Pan de chocolate</label><br>
+<input type="radio" id="leches" name="pan" value="leches">
+<label for="leches">Pan de 3 leches</label><br>
+<input type="radio" id="elote" name="pan" value="elote">
+<label for="elote">Pan de elote</label><br>
+<input type="radio" id="mantequilla" name="pan" value="mantequilla">
+<label for="mantequilla">Pan de mantequilla</label><br>
+
+<h3>¿Qué sabor de relleno deseas?</h3>
+<input type="radio" id="chocolate2" name="relleno" value="chocolate2">
+<label for="chocolate2">Chocolate</label><br>  
+<input type="radio" id="frutos" name="relleno" value="frutos">
+<label for="frutos">Frutos rojos</label><br>
+<input type="radio" id="queso" name="relleno" value="queso">
+<label for="queso">Queso</label><br>
+<input type="radio" id="fresa" name="relleno" value="fresa">
+<label for="fresa">Mermelada de fresa</label><br>
+<input type="radio" id="capuccino" name="relleno" value="capuccino">
+<label for="capuccino">Capuccino</label><br>
+<input type="radio" id="trufa" name="relleno" value="trufa">
+<label for="trufa">Trufa de chocolate amargo</label><br>
+
+<h3>¿Por $50.00 más deseas agregar algún topping?</h3>
+<input type="radio" id="chispas" name="topping" value="chispas">
+<label for="chispas">Chispas de chocolate</label><br>  
+<input type="radio" id="perlas" name="topping" value="perlas">
+<label for="perlas">Perlas comestibles de sabores</label><br>
+<input type="radio" id="figuras" name="topping" value="figuras">
+<label for="figuras">Pequeñas figuras de fondant (máximo 5 cm de altura)</label><br>
+<input type="radio" id="flores" name="topping" value="flores">
+<label for="flores">Flores de chantillí</label><br>
+<input type="radio" id="trozos" name="topping" value="trozos">
+<label for="trozos">Trozos de chocolate</label><br>
+<input type="radio" id="galleta" name="topping" value="galleta">
+<label for="galleta">Trozos de galleta de mantequilla</label><br><br>
+
+<label for="limpiar">Limpiar</label>
+<input type="reset" id="limpiar" name="limpiar"><br>
+<label for="enviar">Enviar</label>
+<input type="submit" id="enviar" name="enviar"><br><br>
+</body>
